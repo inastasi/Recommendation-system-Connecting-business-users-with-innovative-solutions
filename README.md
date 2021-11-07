@@ -8,7 +8,7 @@ descriptions and employee profiles, resulting with a recommendation list of rele
 employees for a proposed project.
 Based on characteristics of available datasets, which appeared in the process of
 Exploratory Data Analysis, after appropriate text preparation, we proposed several
-methods. Firstly, we applied Latent Dirlecht Allocation (LDA) method to represent
+methods.<br>Firstly, we applied Latent Dirlecht Allocation (LDA) method to represent
 project descriptions in form of topic probability and quantified similarity between
 projects and employees in terms of weights assigned to common words, appearing
 among representative topics’ words and descriptions of employees. Secondly, we
