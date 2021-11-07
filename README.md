@@ -11,18 +11,18 @@ Exploratory Data Analysis, after appropriate text preparation, we proposed sever
 methods.<br>Firstly, we applied Latent Dirlecht Allocation (LDA) method to represent
 project descriptions in form of topic probability and quantified similarity between
 projects and employees in terms of weights assigned to common words, appearing
-among representative topics’ words and descriptions of employees. Secondly, we
+among representative topics’ words and descriptions of employees. <br>Secondly, we
 experimented with word and document representations in vector space. For creating
 word vector embeddings we used well-known neural network models Word2Vec,
 GloVe and fastText. Similarity project - employee is inversely proportional to
 Word’s Mover Distance (WMD) between them. Document vector representations
 were created in two ways, as Smooth Inverse Frequency (SIF) of word vectors and
 applying Paragraph vectors (Doc2Vec) model and text similarity was expressed in
-terms of cosine similarity between associated vectors. Thirdly, specialized method
+terms of cosine similarity between associated vectors. <br>Thirdly, specialized method
 for finding similarity between documents of significantly different lengths [16] was
 used. Method is based on finding hidden topic vectors and their relevance within
 project descriptions and calculating produced error when using those vectors for
-reconstruction of employee description texts.
+reconstruction of employee description texts.<br>
 In absence of previous knowledge about correct linking between project and
 employee entities, for measuring results we proposed simple user-centric framework
 which implies gathering feedback from Open Innovation Team, group of ENEL
